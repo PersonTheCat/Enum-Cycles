@@ -1,0 +1,13 @@
+[package]
+name = "enum_cycles"
+version = "0.1.0"
+authors = ["PersonTheCat"]
+edition = "2018"
+
+[dependencies]
+enum_cycles_derive = { path = "../enum_cycles_derive" }
+
+[[example]]
+name = "test"
+path = "src/test.rs"
+test = true

@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "enum_cycles"
+    "enum_cycles_derive"
+]

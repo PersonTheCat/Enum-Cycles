@@ -1,0 +1,17 @@
+[package]
+name = "enum_cycles_derive"
+version = "0.1.0"
+authors = ["PersonTheCat]"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = { version = "1.0.17", features = ["parsing", "proc-macro", "derive"] }
+quote = "1.0.3"
+
+[lib]
+proc-macro = true
+
+[features]
+debug = []
